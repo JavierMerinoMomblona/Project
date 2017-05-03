@@ -16,13 +16,13 @@ Este repositorio contiene la base para crear una pagina web / blog en un entorno
 
 `python --version`  
 
-> Dependiendo de en donde ejecutes el comando te devolvera la version de python en el sitio especifico en el que te encuentres.  
+> Dependiendo de en donde ejecutes el comando te devolvera la version de python en el sitio especifico en el que te encuentres. Esto puede sernos de utilidad si se dan casos de incompatibilidad.  
 
 **Muestra los modelos de la Base de Datos que se este usando:**
   
   `python manage.py inspectdb`
   
-> La Base de Datos que se esta usando viene especificada en el archivo  ***settings.py***  dentro de la carpeta  ***Project/mysite/***:
+> La Base de Datos que se esta usando viene especificada en el archivo  ***settings.py***  dentro de la carpeta  ***Project/mysite/*** :
 
 ```
 DATABASES = {  
