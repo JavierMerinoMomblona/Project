@@ -19,13 +19,24 @@ Este repositorio contiene la base para crear una pagina web / blog en un entorno
 
 `source myvenv/bin/activate`  
 
-> Debes estar en la carpeta 'Project' para que este comando surta efecto.
+> Debes estar en la carpeta *'Project'* para que este comando surta efecto.Sabras si ha funcionado si el sufijo ***(myvenv)*** aparece en la terminal. Para salir del entorno virtual en cualquier momento ejecutaremos el siguiente comando:
+
+`deactivate`
+
+> Este comando funciona en cualquier lugar siempre y cuando el entorno virtual este activado.
 
 **Revisa la version de python que estas usando:** 
 
 `python --version`  
 
 > Dependiendo de en donde ejecutes el comando te devolvera la version de python en el sitio especifico en el que te encuentres. Esto puede sernos de utilidad si se dan casos de incompatibilidad.  
+
+> **NOTA:** En el caso de que la version de python en el entorno virtual sea la 2.7.12 (que suele venir por defecto), quizas este comando te resulte de utilidad:
+
+`virtualenv -p python3.5 myvenv`
+
+> **IMPORTANTE:** Este comando se encargará de cambiar la version de python que se usa estando en el entorno virtual. Para que funcione habrá que ejecutarla dentro del entorno virtual, es decir, mientras aparecezca el sufijo ***(myvenv)*** en la terminal. Hecho esto, saliendo del entorno virtual con un ***deactivate*** y volviendo a entrar en él, deberia habersenos cambiado la version de python del entorno virtual.   
+Si aun asi el problema persiste prueba a actualizar el entorno virtual con el comando: `pip install --upgrade virtualenv` o busca ayuda en Google.
 
 **Muestra los modelos de la Base de Datos que se este usando:**
   
