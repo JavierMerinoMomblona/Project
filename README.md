@@ -3,6 +3,14 @@
 Este repositorio contiene la base para crear una pagina web / blog en un entorno virtual utilizando Django y una Base de Datos de MySQL.
 
 
+
+## Requisitos / Especificaciones:
+
+- Sistema operativo: Ubuntu 16.10
+- Python 3.5
+
+
+
 ## Comandos a tener en cuenta:
 
  
@@ -82,9 +90,7 @@ admin.site.register(nombre_modelo)
 ```
 -----------------------------------------------------------------------
 
-# Requisitos:
 
-## Comming Soon
 
 
 
