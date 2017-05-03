@@ -9,6 +9,7 @@ Este repositorio contiene la base para crear una pagina web / blog en un entorno
 - Sistema operativo: Ubuntu 16.10
 - Python 3.5
 
+>  **NOTA:** La mayoria de los paquetes necesarios para el buen funcionamiento del repositorio vienen incluidos en el mismo. En el caso de que falte alguno, la propia terminal te avisara de cualquier cosa que falte o falle y los procesos a seguir para obtenerlo o solucionarlo.
 
 
 ## Comandos a tener en cuenta:
