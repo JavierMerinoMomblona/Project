@@ -61,7 +61,7 @@ DATABASES = {
 
 `python manage.py inspectdb > models.py`  
 
-> Si la Base de Datos que se esta usando esta vacia, es decir, no contiene tablas, no se copiara mas que una serie de *imports* necesarios para el buen funcionanmiento de los modelos, en el caso de que existieran estos.
+> Si la Base de Datos que se esta usando esta vacia, es decir, no contiene tablas, no se copiara mas que una serie de *imports* necesarios para el buen funcionamiento de los modelos, en el caso de que existieran estos.
 
 **Genera un archivo en el que se almacenaran las especificaciones de las migraciones:**
 
