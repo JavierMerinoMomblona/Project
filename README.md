@@ -1,4 +1,4 @@
-# Django y MySQL. -Ubuntu16.10-
+# Django y MySQL. -Ubuntu16.04-
 
 Este repositorio contiene la base para crear una pagina web / blog en un entorno virtual utilizando Django y una Base de Datos de MySQL.
 
@@ -6,7 +6,7 @@ Este repositorio contiene la base para crear una pagina web / blog en un entorno
 
 ## Requisitos / Especificaciones:
 
-- Sistema operativo: Ubuntu 16.10
+- Sistema operativo: Ubuntu 16.04
 - Python 3.5
 
 >  **NOTA:** La mayoria de los paquetes necesarios para el buen funcionamiento del repositorio vienen incluidos en el mismo. En el caso de que falte alguno, la propia terminal te avisara de cualquier cosa que falte o falle y los procesos a seguir para obtenerlo o solucionarlo.
